@@ -1,0 +1,2 @@
+#!/bin/bash
+tesseract image output -l eng --oem 1 --psm 3

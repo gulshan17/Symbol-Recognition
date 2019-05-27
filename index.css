@@ -1,0 +1,45 @@
+body
+{
+    background-color: #333;
+}
+section
+{
+    
+    background-image: url("indexcover.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size:cover;
+    text-align: center;
+}
+
+@media screen and (max-width:568px)
+{
+    section
+    {
+        padding:50% 0;
+    }
+}
+
+@media screen and (min-width:767px)
+{
+    section
+    {
+        padding:35% 0;
+    }
+}
+
+@media screen and (min-width:992px)
+{
+    section
+    {
+        padding:25% 0;
+    }
+}
+
+@media screen and (min-width:1200px)
+{
+    section
+    {
+        padding:23% 0;
+    }
+}
